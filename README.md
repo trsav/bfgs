@@ -21,10 +21,12 @@ http://www.apmath.spbu.ru/cnsa/pdf/monograf/Numerical_Optimization2006.pdf
 
 ## Example 
 Testing the BFGS algorithm on the Rosenbrock function in 2 dimensions, an optimal solution is found in 34 iterations. 
-<img align='center' src="https://github.com/TomRSavage/BFGS/blob/master/BFGS.png" width="500">
+<p align="center">
+<img src="https://github.com/TomRSavage/BFGS/blob/master/BFGS.png" width="500">
+</p>
 
-
-
+The code implements an initial Hessian <img src="https://render.githubusercontent.com/render/math?math=H_0"> as the identity matrix, and if the problem is two dimensional then the code can produce a trajectory plot of the optimisation scheme. 
+The central difference method is used for the calculation of gradients. 
 
 
 
