@@ -1,7 +1,4 @@
-# BFGS
-Implementation of BFGS within Python
-
-## BFGS Description
+# BFGS Description
 
 The classic Newton method approximates the function to be optimised <img src="https://render.githubusercontent.com/render/math?math=f"> as a quadratic using the Taylor series expansion: 
 
@@ -22,7 +19,9 @@ This approximation is updated at each iteration based on the change in <img src=
 For more details on implementation I highly advise Nocedal's book, Numerical Optimization. 
 http://www.apmath.spbu.ru/cnsa/pdf/monograf/Numerical_Optimization2006.pdf
 
+## Example 
 Testing the BFGS algorithm on the Rosenbrock function in 2 dimensions, an optimal solution is found in 34 iterations. 
+<img align='center' src="https://github.com/TomRSavage/BFGS/blob/master/BFGS.png" width="500">
 
 
 
